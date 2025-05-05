@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayReach Digital | Direct Booking Solutions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header h2 {
+            margin: 10px 0 0;
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h3, h4 {
+            color: #0078d7;
+        }
+
+        ol, ul {
+            margin-left: 20px;
+        }
+
+        ol li, ul li {
+            margin: 10px 0;
+        }
+
+        .contact-info {
+            background-color: #0078d7;
+            color: white;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #005bb5;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .form-section {
+            background: #e8f1ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .form-section form input, .form-section form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-section form input[type="submit"] {
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .form-section form input[type="submit"]:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to StayReach Digital</h1>
+        <h2>Your Partner in Direct Bookings</h2>
+    </header>
+
+    <section>
+        <h3>Tired of Paying High Commission Fees?</h3>
+        <h2>You Are in the Right Place!</h2>
+    </section>
+
+    <section>
+        <h4>How We Work</h4>
+        <ol>
+            <li>We create and launch your ads.</li>
+            <li>Guests contact you directly.</li>
+            <li>You pay only when it works.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h4>Why Choose Us</h4>
+        <ul>
+            <li>No upfront fees.</li>
+            <li>Focus on local guesthouses.</li>
+            <li>Quick and easy setup.</li>
+            <li>Transparent reporting.</li>
+        </ul>
+    </section>
+
+    <section class="contact-info">
+        <p>For More Information:</p>
+        <p>Call Us: +27 67 176 3754</p>
+        <p>Email Us: quintonads12@gmail.com</p>
+        <a href="mailto:quintonads12@gmail.com" class="btn">Contact Us Now</a>
+    </section>
+
+    <section class="form-section">
+        <h4>Request a Free Consultation</h4>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 StayReach Digital. All rights reserved.
+    </footer>
+</body>
+</html>
